@@ -1,0 +1,88 @@
+/* Container */
+
+.article-detail-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    /* Enable Flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    text-align: center;
+    /* background-color: #333; */
+    /* Dark background for contrast */
+    min-height: 100vh;
+    /* Make it take the full viewport height */
+}
+
+
+/* Image Styling */
+
+.article-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    /* Rounded corners at the top */
+    margin-bottom: 20px;
+    /* Space between the image and the title */
+    object-fit: cover;
+    /* Ensures the image maintains its aspect ratio */
+}
+
+
+/* Card styling */
+
+.article-card {
+    background-color: #007bff;
+    /* Blue background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* Full width within the container */
+    max-width: 600px;
+    /* Limit the maximum width */
+}
+
+
+/* Title */
+
+.article-title {
+    font-size: 2rem;
+    color: #fff;
+    /* White color for title */
+    margin-bottom: 20px;
+}
+
+
+/* Content */
+
+.article-content {
+    text-align: left;
+    font-size: 1rem;
+    color: #f0f0f0;
+    /* Light gray for text */
+    margin-bottom: 20px;
+}
+
+
+/* Metadata (Tags and Author) */
+
+.article-meta {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #ccc;
+    /* Light gray for metadata */
+}
+
+.tag {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #091a7c;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
